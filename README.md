@@ -1,17 +1,4 @@
-joelwembo: we want a dockerfile and simple python program, must be free from errors, quick, we want something very light
-
-Workspace: Sure, here's a proposed directory structure for a simple Python project with a Dockerfile:
-
-
-
-
-
-Create Workspace...
-
-joelwembo: use current dir
-
-GitHub Copilot: Sure, here's a simple Python program to go along with your Dockerfile.
-
+# bluegreen and argocd
 Create a file named `app.py` in the `src` directory with the following content:
 
 ```python
