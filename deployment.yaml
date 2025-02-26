@@ -46,7 +46,7 @@ spec:
         ports:
         - containerPort: 5000
 ---
-# Service that directs traffic to the active (blue) deployment
+# Service selecting the blue deployment by default
 apiVersion: v1
 kind: Service
 metadata:

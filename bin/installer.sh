@@ -32,7 +32,7 @@ QFBAl8ARhGYRvtn3
 argocd login acd4037019ace408a9eac2f2cc1a1d81-975371195.us-west-2.elb.amazonaws.com --username admin --password admin@12345
 
 
-argocd app create argocd-blue-green-demo \
+argocd app create argocd-blue-green-demo-green \
   --repo https://github.com/prodxcloud/argocd_blue_green_demo.git \
   --path deployment.yaml \
   --dest-server https://kubernetes.default.svc \

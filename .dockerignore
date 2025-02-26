@@ -14,3 +14,4 @@ ENV
 ./share
 ./local
 ./k8s
+./app
