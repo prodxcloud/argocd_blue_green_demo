@@ -14,10 +14,10 @@ def index():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Welcome</title>
+        <title>Welcome to prodxcloud</title>
     </head>
     <body>
-        <h1>Hello, World!</h1>
+        <h1>Hello, Joel Wembo</h1>
         <p>Welcome to the simple Python web server.</p>
     </body>
     </html>

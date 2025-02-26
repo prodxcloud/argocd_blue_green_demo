@@ -8,3 +8,9 @@ venv
 ENV
 .git
 .gitignore
+./bin
+./lib
+./include
+./share
+./local
+./k8s

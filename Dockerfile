@@ -8,5 +8,6 @@ RUN pip install flask
 
 CMD ["python", "app.py"]
 
-# docker build -t joelwembo/argocd_blue_green_demo .
-# docker run --rm -p 5000:5000 joelwembo/argocd_blue_green_demo
+# docker build -t joelwembo/argocd_blue_green_demo:latest .
+# docker push joelwembo/argocd_blue_green_demo:latest
+# docker run --rm -p 5000:5000 joelwembo/argocd_blue_green_demo:latest
