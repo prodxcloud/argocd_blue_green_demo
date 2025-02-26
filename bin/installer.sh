@@ -38,3 +38,6 @@ argocd app create argocd-blue-green-demo \
   --dest-server https://kubernetes.default.svc \
   --dest-namespace argocd \
   --sync-policy automated
+
+
+argocd app sync argocd-blue-green-demo
