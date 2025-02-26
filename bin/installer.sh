@@ -25,3 +25,16 @@ kubectl -n argocd patch secret argocd-secret -p "{\"stringData\": { \"admin.pass
 # Default password
 kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d; echo
 QFBAl8ARhGYRvtn3
+
+
+
+# New app 
+argocd login acd4037019ace408a9eac2f2cc1a1d81-975371195.us-west-2.elb.amazonaws.com --username admin --password admin@12345
+
+
+argocd app create argocd-blue-green-demo \
+  --repo https://github.com/prodxcloud/argocd_blue_green_demo.git \
+  --path deployment.yaml \
+  --dest-server https://kubernetes.default.svc \
+  --dest-namespace argocd \
+  --sync-policy automated
