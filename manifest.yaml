@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/your-user/your-repo.git'
+    repoURL: 'https://github.com/prodxcloud/argocd_blue_green_demo.git'
     targetRevision: HEAD
-    path: path/to/manifests
+    path: deployment.yaml
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: argocd
